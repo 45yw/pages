@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">
+  function check() {
+  re = "にゃー";
+    <!-- alert(document.msgform.ans.value); !-->
+    if(re.test((document.msgform.msg.value)) === true){
+      document.msgform.action="http://google.co.jp/";
+      <!-- document.msgform.submit(); !--> 
+    }
+    else
+    {
+      document.msgform.action="http://yahoo.co.jp/";
+      <!-- document.msgform.submit(); !-->
+    }
+  }
+</script>
+</head>
+<body>
+<form name="msgform" method="get" onsubmit="check()">
+  <input name="msg" type="text" value="" />
+  <input type="submit" value="送信" />
+</form>
+</body>
+</html>
+
