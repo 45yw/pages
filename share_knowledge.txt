@@ -12,3 +12,4 @@
 下の方がフレキシブルな対応ができるが、細かい表示の統一がやりづらい。(googleは上の方を推奨)
 
 参考記事: https://qiita.com/ryounagaoka/items/045b2808a5ed43f96607
+          https://developers.google.com/web/fundamentals/design-and-ux/responsive/
