@@ -1,15 +1,9 @@
-知識共有
-授業でHTMLについてやったので、それに関連されたお話
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="viewport" content="width=360,initial-scale=1">
-というものについて
+CSSのメタ言語であるSaSSについて
+・メタ言語とは、よりCSSを抽象的に書くことができて、プロセッサと呼ばれるものを使ってCSSを生成
+→つまりもっと直感的にCSSを書くことができる
 
-まず、meta viewportは、多くのデスクトップ向けサイトと同様に、幅が小さいスマートフォンの画面にできるだけぴったりフィットした表示になるような調整をするために必要なタグ
-
-ここに登場するviewportとは・・・widthで指定した幅の仮想的なウィンドウが作成されるもの
-上のdevice-widthを指定した場合は、端末やブラウザアプリによって異なり、下の360であれば、幅360pxのもの(一般的には360や580を用いる、実際の液晶の解像度ではない)が作成される。
-上の方は端末ごとの表示を統一できるが、端末のサイズに応じてフレキシブルな対応ができない。
-下の方がフレキシブルな対応ができるが、細かい表示の統一がやりづらい。(googleは上の方を推奨)
-
-参考記事: https://qiita.com/ryounagaoka/items/045b2808a5ed43f96607
-          https://developers.google.com/web/fundamentals/design-and-ux/responsive/
+CSSと何が違うのか
+・変数が使える
+・ネストが使える
+・四則演算ができる
+・制御構文が使える 
